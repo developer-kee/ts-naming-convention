@@ -1,0 +1,26 @@
+{
+  "name": "ts-naming-convention",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/developer-kee/ts-naming-convention#readme",
+  "bugs": {
+    "url": "https://github.com/developer-kee/ts-naming-convention/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developer-kee/ts-naming-convention.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "type-check": "tsc --noEmit",
+    "dev": "tsc --watch --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.80",
+    "typescript": "^5.8.2"
+  }
+}
